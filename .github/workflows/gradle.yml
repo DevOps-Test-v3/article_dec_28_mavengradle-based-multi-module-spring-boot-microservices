@@ -36,4 +36,4 @@ jobs:
     - name: Validate
       run: |
         ls -lt $GITHUB_WORKSPACE
-        ls -lt $GITHUB_WORKSPACE/build/libs
+        ls -lt $GITHUB_WORKSPACE/service-a/build/libs
